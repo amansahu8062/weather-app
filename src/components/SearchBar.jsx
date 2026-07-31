@@ -10,7 +10,7 @@ function SearchBar({ onSearch }) {
   }
 
   return (
-    <div className="flex gap-2 mb-8">
+    <div className="flex flex-col sm:flex-row gap-2 mb-8">
       <input
         type="text"
         value={city}
